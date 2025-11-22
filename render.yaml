@@ -1,0 +1,10 @@
+services:
+  - name: wordpress
+    type: web
+    env: docker
+    region: singapore
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    repo: https://github.com/srilakags/wordpress-on-render
+    autoDeploy: true
